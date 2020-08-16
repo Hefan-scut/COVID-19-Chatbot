@@ -1,0 +1,131 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Aug 14 00:16:49 2020] ***
+compiled with version: 7.5.0 on 13 August 2020 15:43:39
+os: Linux-4.15.0-1063-aws #67-Ubuntu SMP Mon Mar 2 07:24:29 UTC 2020
+nodename: ip-172-31-40-107
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/ChatBK
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ubuntu/ChatBK
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 31405
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+Python version: 3.6.9 (default, Jul 17 2020, 12:50:27)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555ba149b5e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 19454, cores: 1)
+spawned uWSGI worker 2 (pid: 19455, cores: 1)
+spawned uWSGI worker 3 (pid: 19456, cores: 1)
+spawned uWSGI worker 4 (pid: 19457, cores: 1)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19457|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 489 bytes} [Fri Aug 14 00:25:10 2020] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19457|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 416 bytes} [Fri Aug 14 00:37:15 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19457|app: -1|req: -1/3] 127.0.0.1 () {40 vars in 489 bytes} [Fri Aug 14 00:38:29 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19454|app: -1|req: -1/4] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 00:42:38 2020] POST / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19456|app: -1|req: -1/5] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 00:42:45 2020] POST / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19456|app: -1|req: -1/6] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:06:18 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19457|app: -1|req: -1/7] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:06:20 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19457|app: -1|req: -1/8] 222.201.174.82 () {46 vars in 642 bytes} [Fri Aug 14 01:08:05 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19454|app: -1|req: -1/9] 222.201.174.82 () {46 vars in 642 bytes} [Fri Aug 14 01:08:09 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19456|app: -1|req: -1/10] 222.201.174.82 () {46 vars in 642 bytes} [Fri Aug 14 01:09:39 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19456|app: -1|req: -1/11] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:09:43 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19454|app: -1|req: -1/12] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:12:56 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19454|app: -1|req: -1/13] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:12:57 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Aug 14 01:19:50 2020] ***
+compiled with version: 7.5.0 on 13 August 2020 15:43:39
+os: Linux-4.15.0-1063-aws #67-Ubuntu SMP Mon Mar 2 07:24:29 UTC 2020
+nodename: ip-172-31-40-107
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/ChatBK
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ubuntu/ChatBK
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 31405
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19454|app: -1|req: -1/14] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:21:18 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Aug 14 01:27:54 2020] ***
+compiled with version: 7.5.0 on 13 August 2020 15:43:39
+os: Linux-4.15.0-1063-aws #67-Ubuntu SMP Mon Mar 2 07:24:29 UTC 2020
+nodename: ip-172-31-40-107
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/ChatBK
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ubuntu/ChatBK
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 31405
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+ModuleNotFoundError: No module named 'mysite'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+--- no python application found, check your startup logs for errors ---
+[pid: 19454|app: -1|req: -1/15] 222.201.174.82 () {46 vars in 643 bytes} [Fri Aug 14 01:28:46 2020] POST / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)

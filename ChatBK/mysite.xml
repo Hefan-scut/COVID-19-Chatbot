@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uwsgi>    
+   <socket>127.0.0.1:8997</socket>
+   <chdir>/home/ubuntu/ChatBK</chdir>        
+   <module>ChatBK/ChatBK.wsgi/</module> 
+   <processes>4</processes>      
+   <daemonize>uwsgi.log</daemonize>
+</uwsgi>
